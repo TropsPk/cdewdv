@@ -25,7 +25,7 @@ jobs:
     secrets: inherit
 
   Oneplus-Kona-Tropsi-X-Kernel-Build:
-    name: "Build Oneplus 8 Series (OxygenOS 14 A14)"
+    name: "Build Oneplus 8 Series (SM8250)"
     strategy:
       fail-fast: true
     uses: ./.github/workflows/Oneplus-Kona-Tropsi-X-Kernel-Build.yml
