@@ -47,7 +47,7 @@ env:
   KERNELSU_METHOD    : "shell"
 
   # --- SUSFS ---
-  SUSFS_ENABLE : true
+  SUSFS_ENABLE : false
   SUSFS_FIXED  : true
 
   PATCHES_SOURCE : "JackA1ltman/NonGKI_Kernel_Patches"
@@ -91,9 +91,6 @@ jobs:
 
       - name: ⚙️ Get necessary tools
         uses: ./.github/workflows/build-ready
-
-      - name: 🪝 Patch Kernel of SUSFS
-        uses: ./.github/workflows/patch-susfs
 
       - name: 🔗 Patch for no-kprobe
         uses: ./.github/workflows/patch-no-kprobe
