@@ -71,7 +71,7 @@ env:
   NEED_DTBO      : false
   NEED_SAFE_DTBO : false
   GENERATE_DTB   : "false"
-  BUILD_DEBUGGER : "false"
+  BUILD_DEBUGGER : "true"
 
 jobs:
   build-kernel:
