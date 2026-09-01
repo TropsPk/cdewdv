@@ -19,7 +19,7 @@ env:
 
   # --- Kernel source ---
   KERNEL_SOURCE : "https://github.com/TropsPk/Tropsi_X_Kernel_SM8250.git"
-  KERNEL_BRANCH : "test"   # verified as the repo's current default branch — update if you cut a stable branch later
+  KERNEL_BRANCH : "OpKona"   # verified as the repo's current default branch — update if you cut a stable branch later
 
   # --- Toolchain ---
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.0/LLVM-20.1.0-Linux-X64.tar.xz"
